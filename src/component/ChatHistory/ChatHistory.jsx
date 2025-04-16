@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
 // eslint-disable-next-line no-unused-vars
-import React from 'react'
+import React from "react";
 
 import ReactMarkdown from "react-markdown";
 const ChatHistory = ({ chatHistory }) => {
-    console.log("isdjsjd",chatHistory)
+  console.log("isdjsjd", chatHistory);
   return (
     <>
       {chatHistory.map((message, index) => (
